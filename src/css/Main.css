@@ -1,0 +1,89 @@
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first>h1{
+    font-size: 2.75rem;
+    font-family: "Inter", serif;
+}
+.first>p{
+    font-size: 1.25rem;
+    font-family: "Inter", serif
+}
+
+#btn{
+    background-color: #387ed1;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: black;
+}
+
+.second{
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 30px;
+
+color: #424242;
+
+}
+#second_1{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#news{
+    display: block;
+    margin: auto;
+}
+
+.third{
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.third_1{
+    display: flex;
+    align-items: center;
+}
+a{
+    color: #387ed1;
+    text-decoration: none;
+}
+#un{
+    padding: 0px 60px;
+    font-size: xx-large;
+}
+#an{
+    padding: 0px 60px;
+}
+#fourth{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#fifth{
+    text-align: center;
+    
+}
+#fifth>h1{
+    font-size: xx-large;
+}
+#fifth>p{
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}

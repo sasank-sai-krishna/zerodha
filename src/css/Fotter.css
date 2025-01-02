@@ -3,6 +3,7 @@
     padding: 20px 20px;
     justify-content: space-around;
     background-color: #fbfbfb;
+    font-size: small;
 }
 
 #l1{
@@ -31,10 +32,25 @@
     font-size: 1.125rem;
     font-weight: 500;
     margin-bottom: 10px;
+    color: #424242;
 }
 
 #ful{
     display: block;
     line-height: 2;
-    columns: #666;
+    columns: #424242;
+}
+#five{
+
+    padding: 20px 40px;
+    justify-content: space-around;
+    background-color: #fbfbfb;
+    font-size: small;
+    text-align: center;
+}
+mark{
+    background-color:transparent;
+    color:#387ed1;
+}#five>p{
+    color: #9b9b9b;
 }
